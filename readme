@@ -1,5 +1,6 @@
 readme file test 2
 Modificacao 1
-git push
-git add
+
+git add reame
 git commit -m "small changes"
+git push
