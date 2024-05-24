@@ -6,3 +6,8 @@ git commit -m "small changes"
 git push                      ! to publish
 
 git remote get-url origin     ! Verify URL of the repository
+
+git tab
+git checkout 0.1.1
+
+
