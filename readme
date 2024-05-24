@@ -3,4 +3,6 @@ Modificacao 1
 
 git add reame
 git commit -m "small changes"
-git push
+git push                      ! to publish
+
+git remote get-url origin     ! Verify URL of the repository
