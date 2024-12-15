@@ -20,3 +20,7 @@ git pull - update the local version of a repository from a remote.
 git branch     | see available branches 
 git branch -r  | see remote branches
 git checkout <branch_name> | Switch to an existing branch 
+
+## clone wiki repo
+
+git clone <name.wiki.git>
