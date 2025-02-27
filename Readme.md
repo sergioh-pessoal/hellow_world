@@ -12,7 +12,10 @@ git tab
 git checkout 0.1.1
 
 ## Update local version 
-git pull - update the local version of a repository from a remote. 
+
+git pull => update the local version of a repository from a remote. 
+
+git reset --hard origin/main => reset local branch to what's at remote.  For exemple to get back a removed file
 
 ## branch-related commands
 |command | description|
