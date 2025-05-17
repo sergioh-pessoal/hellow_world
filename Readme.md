@@ -24,6 +24,13 @@ git branch     | see available branches
 git branch -r  | see remote branches
 git checkout <branch_name> | Switch to an existing branch 
 
+## Creating new branch
+| commnad | descriptions |
+|---------|--------------|
+| git checkout -b MyNewBranch | creating a new branch |
+| git commit -m 'comments" |commit the breanch for upload |'
+| git push --set-upstream origin MyNewBranch | upload MyNewBranch|
+
 ## clone wiki repo
 
 git clone <name.wiki.git>
