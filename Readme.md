@@ -31,7 +31,10 @@ git checkout <branch_name> | Switch to an existing branch
 | git commit -m 'comments" |commit the breanch for upload |'
 | git push --set-upstream origin MyNewBranch | upload MyNewBranch|
 
-
+## Restore a delleted file
+| case | command |
+|------|---------| 
+|I deleted a file but didn’t commit |git checkout <file_name>|
 
 # The git merge --strategy= 
 The git merge --strategy= option allows the user to specify a particular merge strategy to be used when combining two or more branches. Git provides several built-in merge strategies, each suited for different scenarios and desired outcomes.
