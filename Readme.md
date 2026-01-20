@@ -10,11 +10,15 @@ git remote get-url origin     ! Verify URL of the repository
 
 git tab
 git checkout 0.1.1
+## remove files from repository
+git rm <filename>
+git commit -m "remove <filename>"
+git push
 
 ## Update local version 
 
 git pull => update the local version of a repository from a remote. 
-
+git 
 git reset --hard origin/main => reset local branch to what's at remote.  For exemple to get back a removed file
 
 ## branch-related commands
