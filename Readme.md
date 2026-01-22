@@ -10,6 +10,10 @@ git remote get-url origin     ! Verify URL of the repository
 
 git tab
 git checkout 0.1.1
+## remove files from repository
+git rm <filename>
+git commit -m "remove <filename>"
+git push
 
 ## Update local version 
 
@@ -60,6 +64,15 @@ Here are some of the common merge strategies:
 ## clone wiki repo
 
 git clone <name.wiki.git>
+
+## Create the Pull Request ##
+<ol>
+<li> Create the Pull Request: On the web interface of the hosting platform, a prompt usually appears to create a "Compare & pull request" for the recently pushed branch. The developer provides a descriptive title and description, selects the base branch (e.g., main or master) they want to merge into, and submits the PR.</li>
+
+<li>Review and Discussion: Team members review the code, add comments, and suggest modifications directly within the PR interface. The author can push follow-up commits to address feedback, which automatically updates the PR.</li>
+
+<li> Merge the Pull Request: Once approved and any conflicts are resolved, a maintainer
+merges the changes into the base branch, closing the pull request. </li>
 
 # References
 https://www-markdownguide-org.translate.goog/basic-syntax/?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=tc
