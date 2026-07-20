@@ -26,7 +26,8 @@ git reset --hard origin/main => reset local branch to what's at remote.  For exe
 |---|---|
 git branch     | see available branches 
 git branch -r  | see remote branches
-git checkout <branch_name> | Switch to an existing branch 
+git checkout <branch_name> | Switch to an existing branc
+git fetch --all --prume | This safely downloads all new remote branches and deletes local references to remote branches that have been deleted from the server.
 
 ## Creating new branch
 | commnad | descriptions |
