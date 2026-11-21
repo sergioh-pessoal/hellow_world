@@ -28,6 +28,12 @@ git branch     | see available branches
 git branch -r  | see remote branches
 git checkout <branch_name> | Switch to an existing branch 
 
+## Pull request commands
+Propose, review, and merge code changes using pull requests to collaborate effectively and maintain code quality. 
+
+see https://docs.github.com/en/pull-requests/reference/pull-requests
+
+
 ## Creating new branch
 | commnad | descriptions |
 |---------|--------------|
