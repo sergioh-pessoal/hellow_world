@@ -29,6 +29,12 @@ git branch -r  | see remote branches
 git checkout <branch_name> | Switch to an existing branc
 git fetch --all --prume | This safely downloads all new remote branches and deletes local references to remote branches that have been deleted from the server.
 
+## Pull request commands
+Propose, review, and merge code changes using pull requests to collaborate effectively and maintain code quality. 
+
+see https://docs.github.com/en/pull-requests/reference/pull-requests
+
+
 ## Creating new branch
 | commnad | descriptions |
 |---------|--------------|
